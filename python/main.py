@@ -4,7 +4,8 @@ from answers import *
 if __name__ == "__main__":
     # List of the available problems
     completedProblems = {
-        1: Problem001.solve, 2: Problem002.solve, 3: Problem003.solve
+        1: Problem001.solve, 2: Problem002.solve, 3: Problem003.solve,
+        4: Problem004.solve
     }
     
     # ask the user for a valid input
