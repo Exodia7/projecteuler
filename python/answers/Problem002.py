@@ -22,7 +22,7 @@ def solve():
             total += n2
 
     end = time()
-    print('\nThe sum of the even-valued Fibonacci terms below 4 millions is {} \nExecution Time: {}'.format(total, end-start))
+    print('\nThe sum of the even-valued Fibonacci terms below 4 millions is {} \nExecution time (in secs): {}'.format(total, end-start))
 
 if __name__ == "__main__":
     solve()
