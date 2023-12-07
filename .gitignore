@@ -1,2 +1,6 @@
+# in general
+*.txt
 # for python
 __pycache__
+# for java
+*.class
