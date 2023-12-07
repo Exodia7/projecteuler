@@ -5,7 +5,7 @@ import projecteuler.problems.*;
 public class ProblemFactory {
     // Array containing all problems resolved so far
     private static Problem[] problems = {
-        new Problem001(), new Problem002()
+        new Problem001(), new Problem002(), new Problem003()
     };
 
     /** Executes a given problem
