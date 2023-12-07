@@ -29,7 +29,8 @@ public abstract class Problem {
       * @param result, the answer to this problem
       */
     protected void showResult (Answer result) {
-        System.out.println("The result to Problem #" + problemNumber + " is " + result.toString());
+        System.out.println("The result to Problem #" + problemNumber + " is " + result.answerToString());
+        System.out.println("Execution time (in secs): " + result.getExecutionTime());
     }
 
     /** Setter for the problemNumber variable

@@ -21,6 +21,7 @@ public class Problem001 extends Problem {
       * which is the sum of all numbers below 1000 that are multiples of 3 or 5
       */
     protected Answer solveProblem () {
+        long startTime = System.currentTimeMillis();
         int sum = 0;
         int upperLimit = 1000;
 
@@ -29,7 +30,8 @@ public class Problem001 extends Problem {
                 sum += i;
             }
         }
+        long endTime = System.currentTimeMillis();
 
-        return new Answer(sum);
+        return new Answer(sum, (endTime-startTime)/1000.0);
     }
 }
