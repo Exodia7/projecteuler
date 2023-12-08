@@ -13,7 +13,7 @@ if __name__ == "__main__":
     chosenProblemNum = -1
     while (not validInput):
         # Ask the user which problem he wants to run
-        print("Which Problem would you like to execute?\nPossible choices include:")
+        print("Which Problem would you like to execute?\nAvailable problems are:")
         for problemNum in completedProblems:
             print(f" - Problem #{problemNum}")
         print("\nEnter the number: ", end='')
@@ -31,7 +31,7 @@ if __name__ == "__main__":
             else:
                 validInput = True
         except ValueError:
-            print("Please provide a valid number!")
+            print("Please enter an integer number!")
         
         # separator print
         print("\n-----------------------")
