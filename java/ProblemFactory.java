@@ -7,10 +7,25 @@ public class ProblemFactory {
     private static Problem[] problems = {
         new Problem001(), new Problem002(), new Problem003()
     };
+    
+    /** Checks if there is a problem with the given number.
+      *
+      * @param problemNumber the number of the problem to be found
+      */
+    public static boolean isAvailableProblemNumber(int problemNumber) {
+        for (int i=0; i < problems.length; i++) {
+            if (problems[i].getProblemNumber() == problemNumber) {
+                return true;
+            }
+        }
+        
+        // if we reach this, it means no matching problem was found
+        return false;
+    }
 
     /** Executes a given problem
       *
-      * @param problemNumber, the number of the problem to be executed
+      * @param problemNumber the number of the problem to be executed
       */
     public static void executeProblem (int problemNumber) {
         for (int i = 0; i < problems.length; i ++) {
@@ -24,11 +39,10 @@ public class ProblemFactory {
     /** Displays all available problem numbers
       */
     public static void showProblemNumberOptions () {
-        System.out.print("Available problems are: \n[");
+        System.out.println("Available problems are:");
 
-        for (int i = 0; i <= problems.length-2; i ++) {
-            System.out.print(problems[i].getProblemNumber() + ", ");
+        for (int i = 0; i < problems.length; i ++) {
+            System.out.println(" - Problem #" + problems[i].getProblemNumber());
         }
-        System.out.println(problems[problems.length-1].getProblemNumber() + "]");
     }
 }
