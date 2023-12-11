@@ -1,7 +1,8 @@
 # This file contains generally useful functions used in different problems.
+# Author: Ringlet Valentin
 
 def isPrime(n):
-    """ Computes whether the given number n is prime or not
+    """ Computes whether the given number n is prime or not and returns the corresponding value.
     """
     # first handle some base cases and common cases
     if (n < 2):

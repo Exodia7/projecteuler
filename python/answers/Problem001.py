@@ -1,5 +1,5 @@
 # Problem 1 of Project Euler
-# Credit: Ringlet Valentin
+# Author: Ringlet Valentin
 #
 # Solution: 233 168
 

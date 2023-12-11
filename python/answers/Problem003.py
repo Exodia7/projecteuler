@@ -1,5 +1,5 @@
 # Problem 3 of Project Euler
-# Credit: Ringlet Valentin
+# Author: Ringlet Valentin
 #
 # Solution: 6857
 
