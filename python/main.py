@@ -8,7 +8,7 @@ if __name__ == "__main__":
     completedProblems = {
         1: Problem001.solve, 2: Problem002.solve, 3: Problem003.solve,
         4: Problem004.solve, 5: Problem005.solve, 6: Problem006.solve,
-        7: Problem007.solve, 8: Problem008.solve
+        7: Problem007.solve, 8: Problem008.solve, 9: Problem009.solve
     }
     
     # ask the user for a valid input

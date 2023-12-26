@@ -7,4 +7,5 @@ from .Problem005 import solve
 from .Problem006 import solve
 from .Problem007 import solve
 from .Problem008 import solve
+from .Problem009 import solve
 from .MethodLibrary import *
